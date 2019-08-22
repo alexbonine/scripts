@@ -7,7 +7,7 @@
     "node": "12.x"
   },
   "scripts": {
-    "optimize": "node scripts/optimizeImages.js"
+    "optimize": "node src/optimizeImages.js"
   },
   "repository": {
     "type": "git",
