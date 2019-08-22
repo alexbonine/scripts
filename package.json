@@ -1,0 +1,47 @@
+{
+  "name": "scripts",
+  "version": "0.0.1",
+  "description": "Random scripts",
+  "main": "index.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "optimize": "node scripts/optimizeImages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbonine/scripts.git"
+  },
+  "keywords": [
+    "alex",
+    "bonine",
+    "alexbonine",
+    "scripts"
+  ],
+  "author": "Alex Bonine <lemurdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbonine/scripts/issues"
+  },
+  "homepage": "https://github.com/alexbonine/scripts#readme",
+  "dependencies": {
+    "command-exists": "^1.2.8",
+    "commander": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "imagemagick-cli": "^0.5.0",
+    "imagemin": "^7.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-webp": "^5.1.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}
